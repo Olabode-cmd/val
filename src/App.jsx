@@ -53,7 +53,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-pink-50 flex flex-col items-center justify-center p-4 text-center relative">
       {" "}
-      <div className="absolute right-4 bottom-4">
+      <div className="absolute right-4 bottom-8">
         {" "}
         <button className="bg-black px-3 py-2.5 text-white text-sm">
           Share page
