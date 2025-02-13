@@ -23,7 +23,7 @@ const App = () => {
   };
 
   const handleShare = () => {
-    setShowShareModal(true); // Show the share modal
+    setShowShareModal(true);
   };
 
   const handleShareNameChange = (e) => {
@@ -144,13 +144,10 @@ const App = () => {
               </p>
               <div className="animate-bounce text-4xl">❤️</div>
               <button
-                onClick={() => {
-                  setShowCelebration(false);
-                  window.close();
-                }}
-                className="mt-6 bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full font-bold transition-colors duration-300"
+                onClick={handleShare}
+                className="bg-black px-3 py-2.5 text-white text-sm"
               >
-                Close
+                Share page
               </button>
             </div>
           </div>
