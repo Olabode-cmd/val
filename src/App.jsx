@@ -52,15 +52,11 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-pink-50 flex flex-col items-center justify-center p-4 text-center relative">
-      {" "}
-      <div className="absolute right-4 bottom-8">
-        {" "}
-        <button className="bg-black px-3 py-2.5 text-white text-sm">
-          Share page
-        </button>{" "}
-      </div>{" "}
+      <button className="bg-black px-3 py-2.5 text-white text-sm absolute right-4 bottom-8">
+        Share page
+      </button>
       <div className="absolute bottom-4">
-        <a className="text-sm font-medium">bodejr</a>{" "}
+        <a className="text-sm font-medium">bodejr</a>
       </div>
       <FaHeart className="text-3xl md:text-6xl text-red-500" />
       <h1 className="text-3xl font-bold mb-8 text-pink-600">
