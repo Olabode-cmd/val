@@ -52,7 +52,10 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-pink-50 flex flex-col items-center justify-center p-4 text-center relative">
-      <button className="bg-black px-3 py-2.5 text-white text-sm absolute right-4 bottom-8">
+      <button
+        onClick={handleShare}
+        className="bg-black px-3 py-2.5 text-white text-sm absolute right-4 bottom-8"
+      >
         Share page
       </button>
       <div className="absolute bottom-4">
@@ -79,14 +82,14 @@ const App = () => {
         </button>
       </div>
       {/* Share Button */}
-      <div className="absolute right-4 bottom-4">
+      {/* <div className="absolute right-4 bottom-4">
         <button
           onClick={handleShare}
           className="bg-black px-3 py-2.5 text-white text-sm"
         >
           Share page
         </button>
-      </div>
+      </div> */}
       {/* Share Modal */}
       {showShareModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
