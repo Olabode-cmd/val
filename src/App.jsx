@@ -143,12 +143,12 @@ const App = () => {
                 <span className="capitalize">{name}</span>! 💖
               </p>
               <div className="animate-bounce text-4xl">❤️</div>
-              <button
+              {/* <button
                 onClick={handleShare}
                 className="bg-black px-3 py-2.5 text-white text-sm"
               >
                 Share page
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
